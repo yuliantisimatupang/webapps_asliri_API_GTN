@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>24 - upload photo with pixel more than 1000px</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>0c8ef9e8-9a8f-4006-81d7-3ebd3ec8bec4</testCaseGuid>
+</TestCaseEntity>

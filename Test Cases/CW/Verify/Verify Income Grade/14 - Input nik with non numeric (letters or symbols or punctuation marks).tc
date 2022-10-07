@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>14 - Input nik with non numeric (letters or symbols or punctuation marks)</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>12f5e315-d2ab-4969-917a-6adb83666622</testCaseGuid>
+</TestCaseEntity>

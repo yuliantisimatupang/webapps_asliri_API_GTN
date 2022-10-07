@@ -1,0 +1,30 @@
+{
+  "keywordFileContentHash": "4EE82A3DAE15694EFDBC2B1929AFC0D7",
+  "keywordClasses": [
+    {
+      "name": "basic.keyword",
+      "keywordMethods": [
+        {
+          "name": "getRemainingAccess",
+          "parameters": [
+            {
+              "name": "text",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        }
+      ]
+    }
+  ],
+  "javadocParsed": true
+}

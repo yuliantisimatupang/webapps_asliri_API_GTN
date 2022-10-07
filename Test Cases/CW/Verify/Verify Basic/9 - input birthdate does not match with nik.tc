@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9 - input birthdate does not match with nik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>868fa89f-31eb-462b-84f8-289c82ef4118</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9 - input company name does not match with nik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f0976436-0bf5-49b8-b048-f8935df0a3a4</testCaseGuid>
+</TestCaseEntity>

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>bulk_text</name>
+   <tag></tag>
+   <elementGuidId>7e61124b-0bd2-4245-859a-d3f078475f9f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Bulk' or . = 'Bulk')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulk</value>
+      <webElementGuid>1b356e48-c08f-4c56-8657-074d0ad63a36</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Bulk</value>
+      <webElementGuid>aa37f47e-be33-4c68-83ee-fd6300d25cba</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>9 - input npwp with no income (income 0) in source</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>9d033814-7d01-473a-9c05-62941521e72a</testCaseGuid>
+</TestCaseEntity>

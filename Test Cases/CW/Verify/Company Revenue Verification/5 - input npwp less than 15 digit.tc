@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - input npwp less than 15 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>f19f1ffb-8495-45ee-9f3f-e23cfedf9e5f</testCaseGuid>
+</TestCaseEntity>

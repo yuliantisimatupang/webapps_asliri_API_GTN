@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - Input nik and npwp for which there is no income (income 0) at the source of bpjs and npwp or nik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d4b8374f-3894-4a4d-a2f7-611f910dd7b6</testCaseGuid>
+</TestCaseEntity>

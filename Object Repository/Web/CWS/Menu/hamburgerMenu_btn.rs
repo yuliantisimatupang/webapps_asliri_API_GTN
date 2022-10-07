@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>hamburgerMenu_btn</name>
+   <tag></tag>
+   <elementGuidId>d850f992-0768-470d-9c2d-964dbb550a59</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'side-menu']</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>side-menu</value>
+      <webElementGuid>5960b929-bc6b-4b1f-8141-43f7de3a2fc8</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>id</name>
+      <type>Main</type>
+      <value>side-menu</value>
+      <webElementGuid>bc8ab090-03e8-4151-bf49-06364d653a4e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

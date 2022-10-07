@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>23 - upload photo with pixel less than 400 px</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>cbe9424f-d359-4db3-bc46-77db92074bfe</testCaseGuid>
+</TestCaseEntity>

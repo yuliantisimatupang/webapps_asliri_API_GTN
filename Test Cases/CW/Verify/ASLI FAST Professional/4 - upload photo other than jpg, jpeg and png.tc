@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 - upload photo other than jpg, jpeg and png</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>7289dbbc-79fb-4c7d-b2b1-88e8f6429160</testCaseGuid>
+</TestCaseEntity>

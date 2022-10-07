@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>16 - Input appropriate nik and npwp, but nik has different names in npwp and basic plus sources</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>6a4ff499-8e28-4ebc-b2c7-454f0a641a1a</testCaseGuid>
+</TestCaseEntity>

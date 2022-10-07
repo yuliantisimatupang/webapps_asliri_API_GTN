@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>verify_text</name>
+   <tag></tag>
+   <elementGuidId>87ab460f-e9d5-4798-8891-4214f4846f46</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = 'Verify' or . = 'Verify')]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify</value>
+      <webElementGuid>a5c12c00-350b-4757-bbd8-93011a6d65b5</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>Verify</value>
+      <webElementGuid>3ededcf4-87f5-4eb3-9f00-01dc37b3c14e</webElementGuid>
+   </webElementProperties>
+</WebElementEntity>

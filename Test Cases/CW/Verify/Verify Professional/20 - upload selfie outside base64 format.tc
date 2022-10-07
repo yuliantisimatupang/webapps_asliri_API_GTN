@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>20 - upload selfie outside base64 format</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>d467ebce-0a21-43a4-8cf1-95a181e74af0</testCaseGuid>
+</TestCaseEntity>

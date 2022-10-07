@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>icon -</name>
+   <tag></tag>
+   <elementGuidId>b1bd06be-a1ac-44c4-ae10-c16aefe00a64</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>//span[2]/i</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>i.mdi.mdi-minus</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>i</value>
+      <webElementGuid>ea872d4d-3baf-461b-8953-a24eba2fe870</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>mdi mdi-minus</value>
+      <webElementGuid>37742b6d-0439-4bf6-9717-ea9dc330d1d6</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/div[@class=&quot;row no-print&quot;]/div[@class=&quot;col s12&quot;]/div[@class=&quot;result&quot;]/div[@class=&quot;item&quot;]/span[@class=&quot;response&quot;]/i[@class=&quot;mdi mdi-minus&quot;]</value>
+      <webElementGuid>b66affe1-2d40-4856-ab4d-4b073998cc72</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]/i</value>
+      <webElementGuid>49a3b746-d654-41a4-ad21-398c5dd3b121</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

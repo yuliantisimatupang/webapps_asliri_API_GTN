@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>22 - upload photo with size less than 30kb</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>2bdee0dc-3b6a-488f-a9d8-a6e38ea52311</testCaseGuid>
+</TestCaseEntity>

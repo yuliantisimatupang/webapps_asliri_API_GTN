@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>5 - input nik less than 16 digit</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>42a2bfa4-373b-4a25-afd1-e557b92c9c53</testCaseGuid>
+</TestCaseEntity>

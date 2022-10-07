@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>10 - input birthplace does not match with nik</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>b871b903-0bc7-4d0f-8d16-47972e35be13</testCaseGuid>
+</TestCaseEntity>

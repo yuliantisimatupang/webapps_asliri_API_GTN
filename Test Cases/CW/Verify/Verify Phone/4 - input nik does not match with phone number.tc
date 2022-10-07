@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>4 - input nik does not match with phone number</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>bc67ad87-8c6a-4fdb-a300-0d3d2df478a0</testCaseGuid>
+</TestCaseEntity>
