@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "4558FF2025DE3A557BA29AD87AECD39A",
+  "keywordFileContentHash": "F60F947F5D197BEE29358C7BB977FBE5",
   "keywordClasses": [
     {
       "name": "abstraction.customKeyword",
@@ -7,7 +7,7 @@
         {
           "name": "refreshBrowser",
           "parameters": [],
-          "javadoc": "/**\r\n\t * Refresh browser\r\n\t */"
+          "javadoc": "/**\n\t * Refresh browser\n\t */"
         },
         {
           "name": "clickElement",
@@ -26,7 +26,7 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * Click element\r\n\t * @param to Katalon test object\r\n\t */"
+          "javadoc": "/**\n\t * Click element\n\t * @param to Katalon test object\n\t */"
         },
         {
           "name": "getHtmlTableRows",
@@ -58,7 +58,7 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * Get all rows of HTML table\r\n\t * @param table Katalon test object represent for HTML table\r\n\t * @param outerTagName outer tag name of TR tag, usually is TBODY\r\n\t * @return All rows inside HTML table\r\n\t */"
+          "javadoc": "/**\n\t * Get all rows of HTML table\n\t * @param table Katalon test object represent for HTML table\n\t * @param outerTagName outer tag name of TR tag, usually is TBODY\n\t * @return All rows inside HTML table\n\t */"
         },
         {
           "name": "isElementPresent_Mobile",
@@ -90,12 +90,12 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * Check if element present in timeout\r\n\t * @param to Katalon test object\r\n\t * @param timeout time to wait for element to show up\r\n\t * @return true if element present, otherwise false\r\n\t */"
+          "javadoc": "/**\n\t * Check if element present in timeout\n\t * @param to Katalon test object\n\t * @param timeout time to wait for element to show up\n\t * @return true if element present, otherwise false\n\t */"
         },
         {
           "name": "getCurrentSessionMobileDriver",
           "parameters": [],
-          "javadoc": "/**\r\n\t * Get mobile driver for current session\r\n\t * @return mobile driver for current session\r\n\t */"
+          "javadoc": "/**\n\t * Get mobile driver for current session\n\t * @return mobile driver for current session\n\t */"
         },
         {
           "name": "verifyStatusCode",
@@ -127,7 +127,7 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * Send request and verify status code\r\n\t * @param request request object, must be an instance of RequestObject\r\n\t * @param expectedStatusCode\r\n\t * @return a boolean to indicate whether the response status code equals the expected one\r\n\t */"
+          "javadoc": "/**\n\t * Send request and verify status code\n\t * @param request request object, must be an instance of RequestObject\n\t * @param expectedStatusCode\n\t * @return a boolean to indicate whether the response status code equals the expected one\n\t */"
         },
         {
           "name": "addBasicAuthorizationProperty",
@@ -172,7 +172,7 @@
               }
             }
           ],
-          "javadoc": "/**\r\n\t * Add Header basic authorization field,\r\n\t * this field value is Base64 encoded token from user name and password\r\n\t * @param request object, must be an instance of RequestObject\r\n\t * @param username username\r\n\t * @param password password\r\n\t * @return the original request object with basic authorization header field added\r\n\t */"
+          "javadoc": "/**\n\t * Add Header basic authorization field,\n\t * this field value is Base64 encoded token from user name and password\n\t * @param request object, must be an instance of RequestObject\n\t * @param username username\n\t * @param password password\n\t * @return the original request object with basic authorization header field added\n\t */"
         },
         {
           "name": "loginToCWS",
