@@ -6,17 +6,17 @@
    <defaultProfile>true</defaultProfile>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'https://webapps.asliservices.com/login'</initValue>
+      <initValue>'https://devwebapps.asliservices.com/'</initValue>
       <name>url_cw</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'company@mail.com'</initValue>
+      <initValue>'febry@mail.com'</initValue>
       <name>username</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>
       <description></description>
-      <initValue>'password'</initValue>
+      <initValue>'12345678'</initValue>
       <name>password</name>
    </GlobalVariableEntity>
    <GlobalVariableEntity>

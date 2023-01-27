@@ -13,6 +13,26 @@
          <key>XPATH</key>
          <value>/html/body/main/section/form/div[1]/div[1]/div[1]/div/input</value>
       </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                
+                    
+                    
+                        
+                        Income Verification (NIK)
+                    
+                
+            ' or . = '
+                
+                    
+                    
+                        
+                        Income Verification (NIK)
+                    
+                
+            ')]</value>
+      </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
@@ -22,7 +42,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>ca063e9f-750a-4ca4-bb8e-a95598ff5518</webElementGuid>
+      <webElementGuid>c84a7376-7a3d-4cb5-9a0b-ebeb51d46d15</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +50,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-md-6</value>
-      <webElementGuid>b5fc703b-43e4-44c0-af9b-f8cb25f934df</webElementGuid>
+      <webElementGuid>0b77c9fd-eb9b-4b61-a160-3672b87209a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +66,7 @@
                     
                 
             </value>
-      <webElementGuid>a8356b46-cf17-4a3e-b837-2e684c4f1198</webElementGuid>
+      <webElementGuid>9caac287-32b8-422d-97d6-bd0e2ee2251f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 addon-list&quot;]/div[@class=&quot;col-md-6&quot;]</value>
-      <webElementGuid>375718eb-ad7f-4962-b91b-0cd36ab8ffa5</webElementGuid>
+      <webElementGuid>af457125-3b19-4ff6-8cd2-808c4fd2082c</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>/html/body/main/section/form/div[1]/div[1]/div[1]/div/input</value>
-      <webElementGuid>0b55c894-ca74-4142-b120-16db218cb244</webElementGuid>
+      <webElementGuid>25931cf0-a4ff-4042-9801-ce18d808bada</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div/div</value>
-      <webElementGuid>8e083725-1469-48e0-b78f-31516156a428</webElementGuid>
+      <webElementGuid>2ffdd317-a7ed-4240-a67e-83797d874fc5</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +114,6 @@
                     
                 
             ')]</value>
-      <webElementGuid>c3f02dd0-41ad-4f8f-8326-effda5ec0af3</webElementGuid>
+      <webElementGuid>672e957f-682f-40ee-bd27-4137b11e6b12</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
