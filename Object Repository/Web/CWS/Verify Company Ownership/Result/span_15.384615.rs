@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_15.384615</name>
+   <tag></tag>
+   <elementGuidId>fc5a1074-5128-4c78-9c0b-2a4f199e752f</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>XPATH</key>
+         <value>(.//*[normalize-space(text()) and normalize-space(.)='NI NI PUKIS SILABAT'])[1]/following::span[1]</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>span.response</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>BASIC</selectorMethod>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>7bebdf6a-e9b2-4b5c-8219-86553ed33541</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>response</value>
+      <webElementGuid>d02deef6-a16e-4e82-acfb-1952870f9663</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>15.384615 %</value>
+      <webElementGuid>9b1d03ba-f8e7-4234-a4d4-e631e44ad749</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/div[@class=&quot;row no-print&quot;]/div[@class=&quot;col s12&quot;]/div[@class=&quot;result&quot;]/div[@class=&quot;item&quot;]/span[@class=&quot;response&quot;]</value>
+      <webElementGuid>12ffd564-288a-43d7-8bd8-a434a0a05071</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='NI NI PUKIS SILABAT'])[1]/following::span[1]</value>
+      <webElementGuid>36e62cd5-2e2c-48df-8ae8-1a7582ba664e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Company Ownership Verification'])[1]/following::span[2]</value>
+      <webElementGuid>2113a777-84ad-4b27-b98f-1e5a800ecc85</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Total Company'])[1]/preceding::span[1]</value>
+      <webElementGuid>1c1eccc7-9283-4f98-8a17-6aa1094180b8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='15.384615 %']/parent::*</value>
+      <webElementGuid>b5adb428-3917-4307-ab13-5e60cb049b40</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//span[2]</value>
+      <webElementGuid>ac401384-05d0-4b0b-a967-8500ec2074fb</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//span[(text() = '15.384615 %' or . = '15.384615 %')]</value>
+      <webElementGuid>3b646812-9aac-4d62-9ea5-ea5d41e2edc5</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

@@ -28,7 +28,7 @@ public class loginCW {
 		WebUI.setText(findTestObject('Web/CWS/Login/email_textField'), GlobalVariable.username)
 		WebUI.setText(findTestObject('Web/CWS/Login/password_textField'), GlobalVariable.password)
 		WebUI.click(findTestObject('Web/CWS/Login/login_btn'), FailureHandling.STOP_ON_FAILURE)
-		WebUI.delay(2)
+		//WebUI.delay(2)
 	}
 }
 
