@@ -98,7 +98,7 @@ def inputform() {
 	'confirm result'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/icon centang'), 1)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/span_C'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/span_grade'), 1)
 	
 	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
 	

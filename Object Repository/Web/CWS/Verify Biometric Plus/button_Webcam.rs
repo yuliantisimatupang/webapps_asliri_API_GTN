@@ -6,12 +6,16 @@
    <elementGuidId>1f4bdb04-a534-4cf1-80d2-6630de1a39cf</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>//button[@id='capture']</value>
-      </entry>
-      <entry>
          <key>CSS</key>
          <value>#capture</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'capture' and @type = 'button']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//button[2]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>3dada154-4738-4a45-b4ce-57ee3b1cb539</webElementGuid>
+      <webElementGuid>f5eb14a8-b851-4503-afff-4709540acf7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>btn btn-primary </value>
-      <webElementGuid>883688b6-bbb3-4f40-91ec-0e31142d3621</webElementGuid>
+      <webElementGuid>fd10536c-ba23-442e-9fda-6c7cad5a72e9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>capture</value>
-      <webElementGuid>8c349ebd-2901-4644-892a-b17cb271205c</webElementGuid>
+      <webElementGuid>2d7ca9c1-058d-44e2-9c6c-9d29b63c2dcb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>type</name>
       <type>Main</type>
       <value>button</value>
-      <webElementGuid>936dfa07-a552-4809-b27e-189cca27a8f9</webElementGuid>
+      <webElementGuid>372f1dbb-64e5-4fc7-a231-2485bbed0f6e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -54,7 +58,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;capture&quot;)</value>
-      <webElementGuid>efaa61da-d93c-4fbe-8cff-9666b6fed282</webElementGuid>
+      <webElementGuid>f964e7bb-90ea-45af-a56e-7776fb9a0696</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//button[@id='capture']</value>
-      <webElementGuid>e6287626-e829-443a-afec-8dbbe2b62698</webElementGuid>
+      <webElementGuid>1d40635b-6f9d-4284-97d1-d4a580871d79</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please select a file to upload'])[1]/following::button[2]</value>
-      <webElementGuid>9627718c-3be2-4c1b-bc5c-6151cb36d55a</webElementGuid>
+      <webElementGuid>695c8b1a-1427-425e-921d-f18f04dd37ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please fill out the form below'])[1]/following::button[2]</value>
-      <webElementGuid>8b971630-5cf2-48b3-9717-3c5816774c31</webElementGuid>
+      <webElementGuid>f6f17e61-51e8-439f-8804-903434931727</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required'])[1]/preceding::button[1]</value>
-      <webElementGuid>8b6b666e-fd7f-4bd0-b8b7-8c9321ce8509</webElementGuid>
+      <webElementGuid>add67e87-950b-419a-9774-de620d2b1104</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +98,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='This field is required'])[2]/preceding::button[1]</value>
-      <webElementGuid>45614204-db63-45a9-965b-98338bad713a</webElementGuid>
+      <webElementGuid>3be3bba4-de3f-4cf7-8413-5204bbc34d92</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,7 +106,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//button[2]</value>
-      <webElementGuid>153c6694-f4a7-4633-9e29-02bc9d8e294c</webElementGuid>
+      <webElementGuid>cb600b31-8be1-459b-b9e2-4f6c9e2bb10d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -110,6 +114,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//button[@id = 'capture' and @type = 'button']</value>
-      <webElementGuid>96f1a30b-f3c0-465c-b2c2-c080f5719314</webElementGuid>
+      <webElementGuid>e72072a1-e909-4e53-9616-c40bd5f48e3c</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

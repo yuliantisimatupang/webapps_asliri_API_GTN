@@ -18,11 +18,7 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static org.junit.Assert.assertEquals
 
-def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
-
 WebUI.callTestCase(findTestCase('CW/Verify/Verify Company Headcount/00 - Open Company Headcount Verification'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
 
 if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI RI/h3_Please fill out the form below'), 1, FailureHandling.STOP_ON_FAILURE)) {
 	'input data'
@@ -37,41 +33,32 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 
 def inputform() {
 	'input form appear'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_npwp_company'), 1)
-	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_npwp_company'), 1)	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_company_name'), 1)
-
 	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'), 1)
-	
-	//WebUI.delay(1)
 
 	'button submit appear'
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'))
 
-	//WebUI.delay(1)
-
+	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
+	
 	'click button submit'
 	WebUI.click(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'))
+	
+	def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
 
 	'wait result appear'
-	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Company Headcount/div_This field is required'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Company Headcount/div_error_npwp'), 1)
 	
 	'confirm alert'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/div_This field is required'), 1)
-	
-	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
-	
-	if (rtn == 0) {
-		assert true : "pass"
-	} else {
-		WebUI.closeBrowser()
-		assert false : "fail"
-	}
-	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/div_error_npwp'), 1)
+	WebUI.delay(1)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Headcount/div_error_npwp')), 'This field is required', false)
+
+	println checkBalance1
+	println checkBalance2
+	assertEquals(checkBalance1 - 0, checkBalance2)
 }
 
-def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
 
-println checkBalance1
-println checkBalance2
-assertEquals(checkBalance1 - 0, checkBalance2)
+

@@ -18,11 +18,8 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static org.junit.Assert.assertEquals
 
-def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_biometric_plus')
 
 WebUI.callTestCase(findTestCase('CW/Verify/Verify Biometric Plus/00 - Open Biometric Plus Verification'), [:], FailureHandling.STOP_ON_FAILURE)
-
-
 
 if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI RI/h3_Please fill out the form below'), 1, FailureHandling.STOP_ON_FAILURE)) {
 	'input data'
@@ -37,24 +34,16 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 
 def inputform() {
 	'input form appear'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_other'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_name'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_dob'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_pob'), 1)
-	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_trx_id'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_name'), 1)	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_dob'), 1)	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_pob'), 1)	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_address'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_mother_name'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/button_Webcam'), 1)
-	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/button_Selfie_photo'), 1)
-	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_mother_name'), 1)	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/button_Webcam'), 1)	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/button_Selfie_photo'), 1)	
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_other'), 1)	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/input_files_photo'), 1)
-
 	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Biometric Plus/button_Submit'), 1)
 	
 	//WebUI.delay(1)
@@ -63,37 +52,36 @@ def inputform() {
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/Verify Biometric Plus/button_Submit'))
 
 	//WebUI.delay(1)
+	
+	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_biometric_plus')
 
 	'click button submit'
 	WebUI.click(findTestObject('Web/CWS/Verify Biometric Plus/button_Submit'))
+	
+	def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_biometric_plus')
 
 	'wait result appear'
-	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_This field is required'), 1)
-	
-	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_Please select a file to upload'), 1)
-	
-	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_Please upload minimum one file'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_name'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_birthdate'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_mother_name'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_selfie_photo'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_files_photo'), 1)
 	
 	'confirm alert'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_This field is required'), 1)
+	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Biometric Plus/input_name'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_name'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_birthdate'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_mother_name'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_selfie_photo'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_files_photo'), 1)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_Please select a file to upload'), 1)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Biometric Plus/div_required_name')), 'This field is required', false)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Biometric Plus/div_required_birthdate')), 'This field is required', false)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Biometric Plus/div_required_mother_name')), 'This field is required', false)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Biometric Plus/div_required_selfie_photo')), 'Please select a file to upload', false)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Biometric Plus/div_required_files_photo')), 'Please upload minimum one file', false)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_Please upload minimum one file'), 1)
-	
-	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
-	
-	if (rtn == 0) {
-		assert true : "pass"
-	} else {
-		WebUI.closeBrowser()
-		assert false : "fail"
-	}
-	
+	println checkBalance1
+	println checkBalance2
+	assertEquals(checkBalance1 - 0, checkBalance2)
 }
-
-def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_biometric_plus')
-
-println checkBalance1
-println checkBalance2
-assertEquals(checkBalance1 - 0, checkBalance2)

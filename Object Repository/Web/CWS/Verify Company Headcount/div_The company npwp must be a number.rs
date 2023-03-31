@@ -6,15 +6,23 @@
    <elementGuidId>d375f7db-fadc-43f5-97d3-84b84bc2d2ca</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>CSS</key>
+         <value>div.invalid-feedback</value>
+      </entry>
+      <entry>
          <key>XPATH</key>
          <value>(.//*[normalize-space(text()) and normalize-space(.)='Please fill out the form below'])[1]/following::div[6]</value>
       </entry>
       <entry>
-         <key>CSS</key>
-         <value>div.invalid-feedback</value>
+         <key>BASIC</key>
+         <value>//*[(text() = '
+                    The company npwp must be a number.
+                ' or . = '
+                    The company npwp must be a number.
+                ')]</value>
       </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +30,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>4d99cde5-99bf-443c-abc4-f062e003d476</webElementGuid>
+      <webElementGuid>db807c5a-f81d-4e7c-95b5-836615038bbc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +38,7 @@
       <name>class</name>
       <type>Main</type>
       <value>invalid-feedback</value>
-      <webElementGuid>a77a2342-59ad-4fc8-b135-b9110855a038</webElementGuid>
+      <webElementGuid>5b15cc3a-df1e-4dd6-bc84-955ead023b07</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -40,7 +48,7 @@
       <value>
                     The company npwp must be a number.
                 </value>
-      <webElementGuid>6f53a583-62ea-4fd0-8464-5773b425088e</webElementGuid>
+      <webElementGuid>71ae0327-2e3e-4055-b9a0-544c54fe83a2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -48,7 +56,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/form[@class=&quot;uiblock&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;input-field col-md-6&quot;]/div[@class=&quot;invalid-feedback&quot;]</value>
-      <webElementGuid>d4c92897-967b-4037-b399-4935b170828c</webElementGuid>
+      <webElementGuid>741e5ba8-88e1-42ca-bf55-f77ab81feb96</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -56,7 +64,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Please fill out the form below'])[1]/following::div[6]</value>
-      <webElementGuid>6429c266-c88e-4180-b773-c34bf26379d2</webElementGuid>
+      <webElementGuid>7f4e70a0-7bca-4e89-a394-8392c48ff41e</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -64,7 +72,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::div[3]</value>
-      <webElementGuid>d7850475-a9df-4bc2-ab4e-34224a262e82</webElementGuid>
+      <webElementGuid>88c41a8b-cdcf-4346-a3bf-fb26583f1c0d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -72,7 +80,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Chosen Services'])[1]/preceding::div[5]</value>
-      <webElementGuid>6588dba8-33cf-40f3-89ee-7978c02f3ce5</webElementGuid>
+      <webElementGuid>5fbf6b3a-409f-400b-b943-3a5099fe11cb</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -80,7 +88,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>//*/text()[normalize-space(.)='The company npwp must be a number.']/parent::*</value>
-      <webElementGuid>9c6d3079-2e79-4c8a-b045-083f1572b4d2</webElementGuid>
+      <webElementGuid>82881a5e-aaef-487a-a04d-91949098c229</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -88,7 +96,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div/div[2]/div[2]</value>
-      <webElementGuid>8a6ad790-d683-4163-a89e-f342c23f84ab</webElementGuid>
+      <webElementGuid>189558d9-acad-4301-8da4-d0d93187ba96</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -100,6 +108,6 @@
                 ' or . = '
                     The company npwp must be a number.
                 ')]</value>
-      <webElementGuid>a313bef5-c8b9-4b7a-ae03-e4315d06f268</webElementGuid>
+      <webElementGuid>e06bc772-f3e9-4178-8c0c-5763101d105b</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

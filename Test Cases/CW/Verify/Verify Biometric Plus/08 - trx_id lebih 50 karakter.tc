@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>08 - trx_id lebih 50 karakter</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ecd4cef4-8a2c-452e-b0e9-cc9350b85958</testCaseGuid>
+</TestCaseEntity>

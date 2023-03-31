@@ -6,16 +6,15 @@
    <elementGuidId>2457ffd9-b1d7-4234-a294-0571314519d1</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>(//input[@id='doc_file'])[6]</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
          <value>//*[@type = 'file' and @name = 'doc_file[]' and @id = 'doc_file']</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[3]/div[3]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>c761ef9e-37f3-4811-aff5-66c3c4ae5008</webElementGuid>
+      <webElementGuid>dbb15951-1e66-497c-8087-89334c08878d</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -34,7 +33,7 @@
       <name>type</name>
       <type>Main</type>
       <value>file</value>
-      <webElementGuid>e4368038-117a-453b-9cfe-2bdd0c10dac4</webElementGuid>
+      <webElementGuid>7a5e3ca0-b916-4c4b-8cfc-150e9d24dc1c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -42,7 +41,7 @@
       <name>name</name>
       <type>Main</type>
       <value>doc_file[]</value>
-      <webElementGuid>8a309fcd-a9ff-4a18-b396-8667f8e79241</webElementGuid>
+      <webElementGuid>eb8f8d01-2445-49da-9610-8f65a6567b64</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -50,7 +49,7 @@
       <name>id</name>
       <type>Main</type>
       <value>doc_file</value>
-      <webElementGuid>38300def-12b0-4beb-a5da-abe07ff14d86</webElementGuid>
+      <webElementGuid>f1f9c646-e222-428c-b62c-d1d9765499fb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -58,7 +57,7 @@
       <name>class</name>
       <type>Main</type>
       <value>form-control</value>
-      <webElementGuid>47155042-6135-4e9b-9ab0-d99b586d0517</webElementGuid>
+      <webElementGuid>1bc05077-848e-4c44-908a-bfa846d98493</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -66,7 +65,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/form[@class=&quot;uiblock&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;input-field col-md-12&quot;]/div[@class=&quot;input relative&quot;]/input[@id=&quot;doc_file&quot;]</value>
-      <webElementGuid>e5dcd196-14dd-4d32-8bc6-9eb611aad988</webElementGuid>
+      <webElementGuid>dec0ec87-d92d-473b-bcd3-08922a6647c8</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -74,7 +73,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@id='doc_file'])[6]</value>
-      <webElementGuid>0cc84cb8-abc4-409b-8cb7-f46dbf08e5a3</webElementGuid>
+      <webElementGuid>9b0dca05-01ff-49ed-9e9f-c6ce2001c67a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -82,7 +81,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div[3]/div/input</value>
-      <webElementGuid>f2f27219-461f-4fc5-a44e-0d546465d8c2</webElementGuid>
+      <webElementGuid>eaa8509c-148d-4531-8b25-7f94ba7d9de9</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -90,6 +89,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@type = 'file' and @name = 'doc_file[]' and @id = 'doc_file']</value>
-      <webElementGuid>e4b0f75c-9292-42d1-98d9-693386a9dfe5</webElementGuid>
+      <webElementGuid>ddd99364-ec84-4df4-b5e8-c447b5920d29</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

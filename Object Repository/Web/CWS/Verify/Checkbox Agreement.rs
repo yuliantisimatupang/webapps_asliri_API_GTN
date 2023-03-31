@@ -6,16 +6,33 @@
    <elementGuidId>dba58c44-f99f-4cec-b74e-2b0aeefb1fb8</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>XPATH</key>
-         <value>/html/body/main/section/form/div[1]/div[2]/div/input</value>
-      </entry>
-      <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
       <entry>
          <key>BASIC</key>
-         <value>//*[@name = 'agreement']</value>
+         <value>//*[(text() = '
+            
+                
+                
+                    
+                    I agree with all charges here
+                
+            
+            
+                    ' or . = '
+            
+                
+                
+                    
+                    I agree with all charges here
+                
+            
+            
+                    ')]</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>/html/body/main/section/form/div[1]/div[2]/div/input</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -26,7 +43,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>div</value>
-      <webElementGuid>5b5b1489-82d5-407b-8a49-98fd8b381c49</webElementGuid>
+      <webElementGuid>a24cb2fa-ec4e-45de-94b6-183530058d7b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -34,7 +51,7 @@
       <name>class</name>
       <type>Main</type>
       <value>col-md-12</value>
-      <webElementGuid>683007e2-c2bd-4290-92d6-46a54b7e287f</webElementGuid>
+      <webElementGuid>6b02e639-c811-406d-a3ce-43ace575b9bc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -51,7 +68,7 @@
             
             
                     </value>
-      <webElementGuid>cebb38e4-9f3c-4a20-b57b-790eb64bd4ef</webElementGuid>
+      <webElementGuid>4ef812b4-9040-4cf0-be0b-24d16d122c8e</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -59,7 +76,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12&quot;]</value>
-      <webElementGuid>1d505a4a-f632-48f1-a39f-c683b98d1ab0</webElementGuid>
+      <webElementGuid>951aaa6f-77fc-4d52-9b9f-b1d859dc296b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -67,7 +84,7 @@
       <name>name</name>
       <type>Main</type>
       <value>agreement</value>
-      <webElementGuid>a296c8ad-ec25-44b5-a377-4dbfce1d54f5</webElementGuid>
+      <webElementGuid>1056be6f-b22b-4f1e-a73d-5d39667efc19</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -75,7 +92,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify Workplace'])[1]/following::div[1]</value>
-      <webElementGuid>922c1fcf-82b2-4018-8130-09ec65080b06</webElementGuid>
+      <webElementGuid>e551df05-eb95-4b47-bddd-69e492979d40</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -83,7 +100,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Verify Work Location'])[1]/following::div[4]</value>
-      <webElementGuid>c357254d-5c16-4174-a614-3c96a7feaf92</webElementGuid>
+      <webElementGuid>423f789a-8556-4d70-9ef7-08544e004385</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -91,7 +108,7 @@
       <name>xpath:neighbor</name>
       <type>Main</type>
       <value>(.//*[normalize-space(text()) and normalize-space(.)='Submit'])[1]/preceding::div[3]</value>
-      <webElementGuid>491e9821-c0f0-4184-afe1-c248dfa6de02</webElementGuid>
+      <webElementGuid>3c150ee2-4abe-416d-a959-23117e992a05</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,7 +116,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//form/div/div[2]</value>
-      <webElementGuid>1efef966-eaf1-4845-a9f0-f265a33b690c</webElementGuid>
+      <webElementGuid>6e3dfb03-50fd-4183-8137-9747d8e6e18a</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -125,6 +142,6 @@
             
             
                     ')]</value>
-      <webElementGuid>d83b859f-c6bd-4b2f-a0cb-658b6bd058ea</webElementGuid>
+      <webElementGuid>d1e21119-c909-45ca-b6be-78f736e4ea16</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

@@ -54,10 +54,10 @@ def inputform() {
 	WebUI.click(findTestObject('Web/CWS/AHU/SK Company/button_Submit'))
 
 	'wait result appear'
-	WebUI.waitForElementPresent(findTestObject('Web/CWS/AHU/SK Company/div_This field is required'), 1)
+	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_birthdate'), 1)
 	
 	'confirm alert'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/SK Company/div_This field is required'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Biometric Plus/div_required_birthdate'), 1)
 	
 	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
 	
