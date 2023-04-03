@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>19 - trx_id dengan (_)(-)</name>
+   <name>13 - company_name spasi double</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7f22e302-024d-4033-854d-5283bcd3cf30</testCaseGuid>
+   <testCaseGuid>85c94abf-429b-4195-ab07-cf256602cfb5</testCaseGuid>
 </TestCaseEntity>

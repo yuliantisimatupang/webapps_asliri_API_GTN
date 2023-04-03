@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>19 - trx_id dengan (_)(-)</name>
+   <name>08 - npwp dengan alphabeth simbolik</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7f22e302-024d-4033-854d-5283bcd3cf30</testCaseGuid>
+   <testCaseGuid>874e21ef-b629-41a8-b0a1-f82096307b4b</testCaseGuid>
 </TestCaseEntity>

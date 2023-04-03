@@ -25,7 +25,7 @@ GlobalVariable.noRow = 0
 
 TestData data = findTestData(nameTestData)
 
-data.changeSheet('Sheet4')
+data.changeSheet('Sheet13')
 
 getLastRow = data.getRowNumbers()
 
@@ -84,10 +84,6 @@ def inputform() {
 	
 	'confirm result'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 1)
-	
-	//mdi mdi-check match
-	//mdi mdi-minus
-	//mdi mdi-close
 	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 'class'), 'mdi mdi-check match', false)
 	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/span_grade'), 1)

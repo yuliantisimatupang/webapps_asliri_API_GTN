@@ -25,7 +25,7 @@ GlobalVariable.noRow = 0
 
 TestData data = findTestData(nameTestData)
 
-data.changeSheet('Sheet4')
+data.changeSheet('Sheet15')
 
 getLastRow = data.getRowNumbers()
 
@@ -41,11 +41,10 @@ for (int excelRow : (1..getLastRow)) {
 	GlobalVariable.noRow = (GlobalVariable.noRow + 1)
 	GlobalVariable.a = 0
 	GlobalVariable.excelRow = excelRow
-		
+	
 	npwp_company = data.getValue('npwp_company', excelRow)
 	company_name = data.getValue('company_name', excelRow)
 }
-
 
 WebUI.callTestCase(findTestCase('CW/Verify/Verify Company Headcount/00 - Open Company Headcount Verification'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -71,9 +70,9 @@ def inputform() {
 	'button submit appear'
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'))
 	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'), 1)
-
-	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
 	
+	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
+
 	'click button submit'
 	WebUI.click(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'))
 	
@@ -84,15 +83,11 @@ def inputform() {
 	
 	'confirm result'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 1)
-	
-	//mdi mdi-check match
-	//mdi mdi-minus
-	//mdi mdi-close
-	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 'class'), 'mdi mdi-check match', false)
+	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 'class'), 'mdi mdi-minus', false)
 	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/span_grade'), 1)
 	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Headcount/Result/span_grade')), 'C', false)
-	
+
 	println checkBalance1
 	println checkBalance2
 	assertEquals(checkBalance1 - 1, checkBalance2)

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>19 - trx_id dengan (_)(-)</name>
+   <name>11 - company_name dengan simbolik</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7f22e302-024d-4033-854d-5283bcd3cf30</testCaseGuid>
+   <testCaseGuid>78705620-677c-4362-ae77-01d8bb7c5e52</testCaseGuid>
 </TestCaseEntity>

@@ -25,7 +25,7 @@ GlobalVariable.noRow = 0
 
 TestData data = findTestData(nameTestData)
 
-data.changeSheet('Sheet4')
+data.changeSheet('Sheet16')
 
 getLastRow = data.getRowNumbers()
 
@@ -41,7 +41,8 @@ for (int excelRow : (1..getLastRow)) {
 	GlobalVariable.noRow = (GlobalVariable.noRow + 1)
 	GlobalVariable.a = 0
 	GlobalVariable.excelRow = excelRow
-		
+	
+	trx_id = data.getValue('trx_id', excelRow)
 	npwp_company = data.getValue('npwp_company', excelRow)
 	company_name = data.getValue('company_name', excelRow)
 }
@@ -62,9 +63,11 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 
 def inputform() {
 	'input form appear'
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_trx_id'), 1)
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_npwp_company'), 1)
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_company_name'), 1)
 	
+	WebUI.setText(findTestObject('Web/CWS/Verify Company Headcount/input_trx_id'), trx_id)
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Headcount/input_npwp_company'), npwp_company)
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Headcount/input_company_name'), company_name)
 
@@ -84,10 +87,6 @@ def inputform() {
 	
 	'confirm result'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 1)
-	
-	//mdi mdi-check match
-	//mdi mdi-minus
-	//mdi mdi-close
 	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Headcount/Result/icon_company_name'), 'class'), 'mdi mdi-check match', false)
 	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/Result/span_grade'), 1)

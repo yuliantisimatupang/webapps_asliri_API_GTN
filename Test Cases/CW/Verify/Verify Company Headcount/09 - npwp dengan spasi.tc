@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>19 - trx_id dengan (_)(-)</name>
+   <name>09 - npwp dengan spasi</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>7f22e302-024d-4033-854d-5283bcd3cf30</testCaseGuid>
+   <testCaseGuid>4462e158-89ff-4447-bb83-ec58e6eaa0c2</testCaseGuid>
 </TestCaseEntity>
