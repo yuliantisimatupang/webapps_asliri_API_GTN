@@ -25,7 +25,7 @@ GlobalVariable.noRow = 0
 
 TestData data = findTestData(nameTestData)
 
-data.changeSheet('Sheet16')
+data.changeSheet('Sheet18')
 
 getLastRow = data.getRowNumbers()
 
@@ -86,12 +86,12 @@ def inputform() {
 	
 	'confirm result'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 1)
-	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 'class'), 'mdi mdi-check match', false)
+	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 'class'), 'mdi mdi-minus', false)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company'), 1)
-	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company')), '2', false)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_total_company'), 1)
+	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_total_company'), 'class'), 'mdi mdi-minus', false)
 	
 	println checkBalance1
 	println checkBalance2
-	assertEquals(checkBalance1 - 1, checkBalance2)
+	assertEquals(checkBalance1 - 0, checkBalance2)
 }

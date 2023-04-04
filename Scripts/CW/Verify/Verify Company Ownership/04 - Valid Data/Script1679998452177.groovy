@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static org.junit.Assert.assertEquals
 
-def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_ownership')
-
 'Mapping Excel File'
 nameTestData = 'Verify/Verify Company Ownership'
 
@@ -40,18 +38,13 @@ for (int excelRow : (1..getLastRow)) {
 	
 	'Import Sheet verify phone total'
 	GlobalVariable.captureCount = 0
-
 	GlobalVariable.noRow = (GlobalVariable.noRow + 1)
-
 	GlobalVariable.a = 0
-
 	GlobalVariable.excelRow = excelRow
 	
 	npwp = data.getValue('npwp', excelRow)
-
 	name = data.getValue('name', excelRow)
 }
-
 
 WebUI.callTestCase(findTestCase('CW/Verify/Verify Company Ownership/00 - Open Company Ownership Verification'), [:], FailureHandling.STOP_ON_FAILURE)
 
@@ -69,44 +62,33 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 def inputform() {
 	'input form appear'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/input_npwp'), 1)
-	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/input_name'), 1)
 	
-	//WebUI.delay(1)
-	
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Ownership/input_npwp'), npwp)
-	
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Ownership/input_name'), name)
 
 	'button submit appear'
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/Verify Company Ownership/button_Submit'))
-	
 	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Company Ownership/button_Submit'), 1)
+	
+	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_ownership')
 
 	'click button submit'
 	WebUI.click(findTestObject('Web/CWS/Verify Company Ownership/button_Submit'))
+	
+	def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_ownership')
 
 	'wait result appear'
 	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/result Company Ownership Verification'), 1)
 	
 	'confirm result'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/icon centang'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 1)
+	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 'class'), 'mdi mdi-check match', false)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/span_2'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company'), 1)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company')), '2', false)
 	
-	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
-	
-	if (rtn == 0) {
-		assert true : "pass"
-	} else {
-		WebUI.closeBrowser()
-		assert false : "fail"
-	}
-	
+	println checkBalance1
+	println checkBalance2
+	assertEquals(checkBalance1 - 1, checkBalance2)
 }
-
-def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_ownership')
-
-println checkBalance1
-println checkBalance2
-assertEquals(checkBalance1 - 1, checkBalance2)

@@ -25,7 +25,7 @@ GlobalVariable.noRow = 0
 
 TestData data = findTestData(nameTestData)
 
-data.changeSheet('Sheet16')
+data.changeSheet('Sheet10')
 
 getLastRow = data.getRowNumbers()
 
@@ -42,7 +42,6 @@ for (int excelRow : (1..getLastRow)) {
 	GlobalVariable.a = 0
 	GlobalVariable.excelRow = excelRow
 	
-	trx_id = data.getValue('trx_id', excelRow)
 	npwp = data.getValue('npwp', excelRow)
 	name = data.getValue('name', excelRow)
 }
@@ -62,11 +61,9 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 
 def inputform() {
 	'input form appear'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/input_trx_id'), 1)
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/input_npwp'), 1)
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/input_name'), 1)
-
-	WebUI.setText(findTestObject('Web/CWS/Verify Company Ownership/input_trx_id'), trx_id)
+	
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Ownership/input_npwp'), npwp)
 	WebUI.setText(findTestObject('Web/CWS/Verify Company Ownership/input_name'), name)
 
@@ -85,8 +82,8 @@ def inputform() {
 	WebUI.waitForElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/result Company Ownership Verification'), 1)
 	
 	'confirm result'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 1)
-	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/Verify Company Ownership/Result/icon_name'), 'class'), 'mdi mdi-check match', false)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/span_name'), 1)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Ownership/Result/span_name')), '15.384615 %', false)
 	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company'), 1)
 	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/Verify Company Ownership/Result/span_total_company')), '2', false)

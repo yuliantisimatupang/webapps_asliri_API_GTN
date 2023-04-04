@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>17 - trx_id lebih 50 char</name>
+   <name>13 - name spasi double</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2ffa45e-bce5-4706-937f-c279a404d765</testCaseGuid>
+   <testCaseGuid>3277e388-0230-4600-8f3e-68949b892ee9</testCaseGuid>
 </TestCaseEntity>

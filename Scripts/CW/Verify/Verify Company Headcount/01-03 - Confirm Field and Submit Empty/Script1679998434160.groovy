@@ -35,10 +35,10 @@ def inputform() {
 	'input form appear'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_npwp_company'), 1)	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/Verify Company Headcount/input_company_name'), 1)
-	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'), 1)
-
+	
 	'button submit appear'
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'))
+	WebUI.scrollToElement(findTestObject('Web/CWS/Verify Company Headcount/button_Submit'), 1)
 
 	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/verify_company_headcount')
 	

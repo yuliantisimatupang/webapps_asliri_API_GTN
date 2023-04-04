@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>17 - trx_id lebih 50 char</name>
+   <name>08 - npwp dengan alphabeth simbolik</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2ffa45e-bce5-4706-937f-c279a404d765</testCaseGuid>
+   <testCaseGuid>b0de125b-968c-4f13-af60-b454aed58e87</testCaseGuid>
 </TestCaseEntity>

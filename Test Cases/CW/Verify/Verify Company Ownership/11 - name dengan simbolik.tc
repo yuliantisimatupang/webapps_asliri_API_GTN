@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>17 - trx_id lebih 50 char</name>
+   <name>11 - name dengan simbolik</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2ffa45e-bce5-4706-937f-c279a404d765</testCaseGuid>
+   <testCaseGuid>131a37da-2f97-470f-b0c6-9cfc2353147a</testCaseGuid>
 </TestCaseEntity>

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>17 - trx_id lebih 50 char</name>
+   <name>07 - npwp lebih dari 15 digit</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>d2ffa45e-bce5-4706-937f-c279a404d765</testCaseGuid>
+   <testCaseGuid>37fdcf60-8f3b-458e-b37c-bb995169e481</testCaseGuid>
 </TestCaseEntity>

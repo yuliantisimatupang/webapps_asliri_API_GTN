@@ -10,128 +10,128 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>73700fe5-6d6a-4920-9169-082bf6a83f38</testSuiteGuid>
+   <testSuiteGuid>986e62d7-b58c-448b-809f-398d486c988d</testSuiteGuid>
    <testCaseLink>
-      <guid>53a73f0e-cdb0-4ff8-a0a1-9ab2783d7438</guid>
+      <guid>6020a9fb-0c31-4aeb-9d2a-d70d24a8af9e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/01-03 - Confirm Field and Submit Empty</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>621a398d-d358-42d7-98ae-c6c7209d6109</guid>
+      <guid>4a3d27f1-5e1c-45b7-9527-6c1a0f1bbf9e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/04 - Valid Data</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>afcbb185-4789-431b-8350-47ee484244a3</guid>
+      <guid>ba6102e2-6562-46a8-8a45-c3b9985f52a1</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/05 - Unregistered NPWP</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/05 - npwp tidak terdaftar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c593561d-55c4-45fd-8508-4df3468a8c88</guid>
+      <guid>91ee0684-9016-4a17-b5bb-70ca3633314c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/06 - NPWP Less 15 digits</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/06 - npwp kurang dari 15 digit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e2868ff9-8038-4f4a-a66c-3e4ad429e66f</guid>
+      <guid>a8a8e8c2-69b6-4b66-b7ab-e27a56548b6a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/07 - NPWP More 15 digits</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/07 - npwp lebih dari 15 digit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>18c4d563-e2f3-4cb3-9f21-61619de16f7a</guid>
+      <guid>ce9014db-c51a-4d51-abb8-b414fc76a594</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/08 - NPWP Alphabeth Symbolic</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/08 - npwp dengan alphabeth simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>72a5b412-523a-43f5-87b5-85415a24c376</guid>
+      <guid>9dd8a51b-0ed2-4664-a0dd-184a535d4983</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/09 - NPWP with Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/09 - npwp dengan spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e217d725-fec3-4221-acb9-41042ec32998</guid>
+      <guid>8ee1832c-956c-4b84-ab09-779e584160a2</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/10 - Unmatch Name</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/10 - name tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b6882776-9986-4547-ad62-eb69b9a085c4</guid>
+      <guid>36e6c49a-b652-403d-9466-717f70ca2c25</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/11 - Name Symbolic</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/11 - name dengan simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8ce9bb0d-324f-4fdf-a262-9cd2809bfeef</guid>
+      <guid>8350dcf7-add1-4ba5-98e8-e43a1d322525</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/12 - Name without Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/12 - name tanpa spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cba2afa8-c61e-4fd2-8a2b-41b3e3183571</guid>
+      <guid>ab09e58a-4aac-4afa-8e83-1d7c5d258fd6</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/13 - Name Double Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/13 - name spasi double</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>b350e4cb-03bb-439d-aab4-99c0518a6e40</guid>
+      <guid>290ce034-ceff-440c-bc4f-760cefb6727f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/14 - Name with dot and comma</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/14 - name dengan titik dan koma</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>d1dc9e87-e236-4e3f-8281-214be8379885</guid>
+      <guid>344d4f37-8bd2-4915-9bb3-8f70ce71808e</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/15 - Name Empty</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/15 - name kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c7968018-0e42-484a-b4a9-df380fb7a9ba</guid>
+      <guid>9f0495da-ebc5-474f-a3dd-6cf1278f6c07</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/16 - trx_id 50 char</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>451e7ec0-c40f-45c4-a077-939aabad71c5</guid>
+      <guid>621ce605-52ad-4236-8162-a51b103adc83</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/17 - trx_id lebih 50 char</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fdd3ef35-9254-4139-8b75-68d97e47b797</guid>
+      <guid>b4f4f886-b237-4dd1-9c8f-cad4bdc0f426</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/18 - trx_id dengan spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cc44b843-f68b-4c54-adf6-4d9ebea4791d</guid>
+      <guid>09a9f2c9-eee4-409f-8109-7fa61fddb6e8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/19 - trx_id dengan (_)(-)</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>66ab6974-df7c-47f4-8a05-51a2be9ee4fb</guid>
+      <guid>82180dde-4a3a-4595-86b8-82ed2685b024</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
       <testCaseId>Test Cases/CW/Verify/Verify Company Ownership/20 - trx_id dengan simbolik</testCaseId>
