@@ -82,6 +82,32 @@ public class uploadphoto {
 		robot.keyPress(KeyEvent.VK_ENTER)
 		robot.keyRelease(KeyEvent.VK_ENTER)
 	}
+	
+	@Keyword
+	def uploadFileJS(TestObject to, String filePath) {
+		//WebUI.click(to)
+		clickUsingJS(to, 0)
+		WebUI.delay(3)
+		StringSelection ss = new StringSelection(filePath)
+		Toolkit.getDefaultToolkit().getSystemClipboard().setContents(ss, null)
+		Robot robot = new Robot()
+		robot.keyPress(KeyEvent.VK_ENTER)
+		robot.keyRelease(KeyEvent.VK_ENTER)
+		robot.delay(500)
+		robot.keyPress(KeyEvent.VK_CONTROL)
+		robot.keyPress(KeyEvent.VK_V)
+		robot.keyRelease(KeyEvent.VK_V)
+		robot.keyRelease(KeyEvent.VK_CONTROL)
+		robot.delay(500)
+		robot.keyPress(KeyEvent.VK_TAB)
+		robot.keyRelease(KeyEvent.VK_TAB)
+		robot.delay(250)
+		robot.keyPress(KeyEvent.VK_TAB)
+		robot.keyRelease(KeyEvent.VK_TAB)
+		robot.delay(500)
+		robot.keyPress(KeyEvent.VK_ENTER)
+		robot.keyRelease(KeyEvent.VK_ENTER)
+	}
 
 	@Keyword
 	def encodeFile(String file) {
