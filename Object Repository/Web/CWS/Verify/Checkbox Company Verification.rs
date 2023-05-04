@@ -7,14 +7,17 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>(//input[@name='addons[]'])[3]</value>
+         <value>//div[7]/div/input</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@data-label = 'Company Verification' and @name = 'addons[]' and @type = 'checkbox']</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value></value>
       </entry>
    </selectorCollection>
-   <selectorMethod>XPATH</selectorMethod>
+   <selectorMethod>BASIC</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +25,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>ff882fb4-2a92-4cac-8d10-cf51d4b81483</webElementGuid>
+      <webElementGuid>2629eafe-6f06-4f64-93ca-5f001e31c15f</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +33,7 @@
       <name>class</name>
       <type>Main</type>
       <value>addons</value>
-      <webElementGuid>3f112976-b1ee-46a8-b1e8-b24f2fc08031</webElementGuid>
+      <webElementGuid>21e0f6f8-9218-4cb8-a5d9-660ad4e053f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -38,15 +41,15 @@
       <name>data-price</name>
       <type>Main</type>
       <value>0</value>
-      <webElementGuid>770dd5f6-5b6b-45eb-97a8-e382d3f51c59</webElementGuid>
+      <webElementGuid>eea98dd6-e23d-496b-a4ae-c280afb838a1</webElementGuid>
    </webElementProperties>
    <webElementProperties>
-      <isSelected>false</isSelected>
+      <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>data-label</name>
       <type>Main</type>
       <value>Company Verification</value>
-      <webElementGuid>b7842319-0b0e-46c4-81d3-8159743889c7</webElementGuid>
+      <webElementGuid>2f95a16a-648a-48a9-a5ff-001e96763908</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +57,7 @@
       <name>name</name>
       <type>Main</type>
       <value>addons[]</value>
-      <webElementGuid>79fea311-c510-4e88-9772-569dd4f4569d</webElementGuid>
+      <webElementGuid>d18611f1-6bd0-4f2c-8456-50d8ded572ce</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +65,7 @@
       <name>type</name>
       <type>Main</type>
       <value>checkbox</value>
-      <webElementGuid>60162166-b22a-4871-a15d-d858339e79cd</webElementGuid>
+      <webElementGuid>bff68154-7713-4a0a-a202-0180f3469991</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +73,7 @@
       <name>value</name>
       <type>Main</type>
       <value>28</value>
-      <webElementGuid>efb1a787-819f-46e2-8d0f-81598ca2182b</webElementGuid>
+      <webElementGuid>6fd17dc6-c265-42a9-9ad6-c1b7f8a4ee4b</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -78,7 +81,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>/html[1]/body[1]/main[1]/section[@class=&quot;container&quot;]/form[1]/div[@class=&quot;row&quot;]/div[@class=&quot;col-md-12 addon-list&quot;]/div[@class=&quot;col-md-6&quot;]/div[@class=&quot;pretty p-icon p-curve&quot;]/input[@class=&quot;addons&quot;]</value>
-      <webElementGuid>3b55f193-0360-4282-aabd-23b5a0e2fec1</webElementGuid>
+      <webElementGuid>0f091921-ec3e-47a1-9245-45be3e081b26</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -86,7 +89,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>(//input[@name='addons[]'])[3]</value>
-      <webElementGuid>7616c5b3-aed3-4d22-8e1c-6dda2a1daf63</webElementGuid>
+      <webElementGuid>e6d500c1-d3e3-437b-8b44-b67c2abd6a04</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,7 +97,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[3]/div/input</value>
-      <webElementGuid>05a915b7-dc67-41f8-a876-8e3c1b203b5f</webElementGuid>
+      <webElementGuid>8924d789-e861-47b6-a46f-81cbc723e2ca</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -102,6 +105,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@name = 'addons[]' and @type = 'checkbox']</value>
-      <webElementGuid>679dfd8d-e70d-4d16-869b-1b45d4dbba15</webElementGuid>
+      <webElementGuid>50cc4eb6-70ef-4789-bd70-6f3d7aa127a2</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

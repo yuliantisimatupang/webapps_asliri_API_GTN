@@ -26,87 +26,87 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>a5ce17fb-801b-4165-b932-85a2ade86c89</guid>
+      <guid>9b791f03-939a-4be0-bba3-992070824537</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/04 - Unregistered Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/04 - company_name tidak terdaftar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>acb2ea3f-f3e0-4d5c-8fad-02260cb6ba49</guid>
+      <guid>6e41f6e7-f335-4d8e-a685-0a45cd1335e7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/05 - Unmatch Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/05 - company_name tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5397fc5a-d060-4652-94fb-da54d2fa111f</guid>
+      <guid>4c6b7080-e6bf-474c-8367-907a1f318e9f</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/06 - Uncomplete Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/06 - company_name tidak lengkap</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>105634ff-501e-4f65-b3d2-7a70d9eeb230</guid>
+      <guid>0c028937-d0bd-4599-891b-2ab5698abc15</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/07 - Company with Symbolic Added</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/07 - company_name dengan simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>bd3b5a08-4bc9-4a4b-bf78-4ed0b16eb327</guid>
+      <guid>c055b6bd-f747-46a7-9d3d-8f201dfffca7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/08 - Company without Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/08 - company_name tanpa spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>55895ff5-c997-4ed6-8827-0233a86aa8dd</guid>
+      <guid>3176f5fd-db58-43ab-b38c-522dbaa45727</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/09 - Empty Decree No</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/09 - decree_no kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>26b1b05f-d7e3-4be3-a316-354e699334c2</guid>
+      <guid>0f5cd582-ec45-447a-b723-687cbf54224c</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/10 - Unmatch Decree No</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/10 - decree_no tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>51cdee1b-238b-497e-b159-be740383553b</guid>
+      <guid>3fc2ecd3-55c7-4fc9-9144-2dcf80398407</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/11 - Decree No without Special Char</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/11 - decree_no tanpa tanda baca atau special character</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>354ae403-843d-49f2-9e32-608cea646f2d</guid>
+      <guid>474ce408-2581-4b0e-a4e2-f55cfb689ed8</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/12 - Decree No without Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/12 - decree_no tanpa spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>8df4471a-c903-4c52-88ac-8abf72317614</guid>
+      <guid>215472a0-c560-4c54-a926-d819402bf294</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/13 - Company with MICRO Capital</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/13 - company MICRO</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>5424b9df-2320-4713-82e4-174bfdd95966</guid>
+      <guid>8cf9c693-87ff-4ddb-9b23-2f75bd61a7eb</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/14 - Company with SMALL Capital</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/14 - company SMALL</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>c54dbe65-baa7-480c-b29a-87a2fbe24a09</guid>
+      <guid>80c847ca-634d-47be-bfe0-4dee62070611</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/15 - Company with MEDIUM Capital</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Modal (Company Capital Verification)/15 - company MEDIUM</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

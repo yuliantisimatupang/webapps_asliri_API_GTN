@@ -6,15 +6,19 @@
    <elementGuidId>49033ffd-cba6-46a8-84d7-0fee3ed2254b</elementGuidId>
    <selectorCollection>
       <entry>
+         <key>XPATH</key>
+         <value>//input[@id='company_name']</value>
+      </entry>
+      <entry>
+         <key>BASIC</key>
+         <value>//*[@id = 'company' and @placeholder = 'Company' and @name = 'company' and @type = 'text']</value>
+      </entry>
+      <entry>
          <key>CSS</key>
          <value>#company</value>
       </entry>
-      <entry>
-         <key>XPATH</key>
-         <value>//input[@id='company']</value>
-      </entry>
    </selectorCollection>
-   <selectorMethod>BASIC</selectorMethod>
+   <selectorMethod>XPATH</selectorMethod>
    <useRalativeImagePath>true</useRalativeImagePath>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -22,7 +26,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>3135c317-6802-4b79-b3b8-07700e56cabd</webElementGuid>
+      <webElementGuid>61a47200-7c44-4571-ad8b-30cce019eb39</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +34,7 @@
       <name>class</name>
       <type>Main</type>
       <value>validate</value>
-      <webElementGuid>1b56e97e-4514-4134-badd-feb584314c14</webElementGuid>
+      <webElementGuid>36899de3-d335-45aa-b440-05795cedf5f0</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +42,7 @@
       <name>id</name>
       <type>Main</type>
       <value>company</value>
-      <webElementGuid>92986543-69ab-410c-96e1-3ab3db93dfb0</webElementGuid>
+      <webElementGuid>b7400657-5b39-4103-98ec-a85eb7319335</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +50,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Company</value>
-      <webElementGuid>72c681a3-108f-4baf-b730-eea1e7f0afb5</webElementGuid>
+      <webElementGuid>d1abe7ca-9aa9-485a-83e9-e2e194b83ad5</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +58,7 @@
       <name>name</name>
       <type>Main</type>
       <value>company</value>
-      <webElementGuid>8485d35d-78db-4c08-9e89-d76a2a073399</webElementGuid>
+      <webElementGuid>22d3e952-8c1a-41b3-8472-d9e5193bf5b9</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +66,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>33e1da45-e51f-480d-87bf-1bf6c16c951e</webElementGuid>
+      <webElementGuid>da9cb75d-1a72-4377-a5a4-0f680d97a6f8</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,7 +74,7 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;company&quot;)</value>
-      <webElementGuid>93c3db6f-b3b4-4fca-975a-8b8794ab1aa4</webElementGuid>
+      <webElementGuid>5d929c86-67d0-448c-b478-853c9e10f229</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
@@ -78,7 +82,7 @@
       <name>xpath:attributes</name>
       <type>Main</type>
       <value>//input[@id='company']</value>
-      <webElementGuid>6e338f22-027a-4257-a023-dc5490d5dd1e</webElementGuid>
+      <webElementGuid>98d2c728-a043-4d53-8e50-6bf94cb23c8d</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,7 +90,7 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>22474543-4ab0-40f6-8fda-7c9b999fc47a</webElementGuid>
+      <webElementGuid>637afa75-c63e-420c-8a72-07eed97fd0b1</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -94,6 +98,6 @@
       <name>xpath:customAttributes</name>
       <type>Main</type>
       <value>//input[@id = 'company' and @placeholder = 'Company' and @name = 'company' and @type = 'text']</value>
-      <webElementGuid>3e0617bd-1512-48f4-998b-ec369a3737dc</webElementGuid>
+      <webElementGuid>ee75c24d-5656-4a64-bb86-2f568bfa6da8</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>

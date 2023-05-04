@@ -26,108 +26,108 @@
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>e384b57f-32cc-46af-8f25-1950e4da2e4f</guid>
+      <guid>82d87587-23da-4dcb-92d2-2f6dc45e9d35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/04 - Unregistered Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/04 - company_name tidak terdaftar</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>7fbf180a-07fe-438d-942c-24315dcd99e9</guid>
+      <guid>6c872350-009f-4ed1-8782-9f2d3b330264</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/05 - Unmatch Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/05 - company_name tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>091bccd8-b8fa-4ade-94a8-5826586a189e</guid>
+      <guid>8872a413-aabd-404f-936f-26e0d9890f61</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/06 - Uncomplete Company</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/06 - company_name tidak lengkap</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>da1be5d5-bd80-4174-82f6-c8d73a0fb128</guid>
+      <guid>74565979-6682-438a-a532-5132ad085a50</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/07 - Company with Symbolic Added</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/07 - company_name dengan simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>1a77141d-8d96-4442-abb2-a924b03a3f5c</guid>
+      <guid>2120314e-e622-4720-b3f8-886aabdf046b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/08 - Company without Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/08 - company_name tanpa spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>0a4144c4-cdaa-42ea-8144-a50563dd0a22</guid>
+      <guid>e13ca488-4867-4e4e-aed7-351c42e6a7ef</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/09 - Empty NIK</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/09 - nik kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>36fa3e87-2214-41fe-8e4a-aded6c841193</guid>
+      <guid>98f29aae-920e-45d8-a93f-91bafb7b8b2b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/10 - Unmatch NIK</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/10 - nik tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>4f4c2b93-8d8b-4594-96be-7cb617cc65ac</guid>
+      <guid>ee0814c7-f689-40fa-8503-a8db5adf691a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/11 - Alphabeth Symbolic NIK</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/11 - nik alphabeth simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>cb721c84-8c7f-4fa8-b349-b6e4729db31d</guid>
+      <guid>a303e635-7be4-4e9d-9188-fa709bc3df2a</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/12 - Less 16 digit NIK</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/12 - nik kurang 16 digit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>fa571307-a7d3-4c8d-becd-fe6faebc3bf9</guid>
+      <guid>5243356b-84a8-41e3-ba09-a9a99b41ba9d</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/13 - More 16 digit NIK</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/13 - nik lebih 16 digit</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f03d1d63-c940-4389-9041-d539b49169e9</guid>
+      <guid>a3517e4a-4d68-4abc-99bc-e4b24a9d1402</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/14 - NIK with Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/14 - nik dengan spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>88383e86-cdd1-4e34-9056-986dcba2b482</guid>
+      <guid>22001678-6d89-481d-92d8-839b8713ccba</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/15 - Empty Name</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/15 - name kosong</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>38ea2e5a-d6f1-4e32-8c05-36ff5b58041b</guid>
+      <guid>2e2b6369-0116-4828-a13c-6fab5cc99f35</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/16 - Unmatch Name</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/16 - name tidak sesuai</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>60168e24-36c8-46bf-89f0-e63dc9dc59ef</guid>
+      <guid>4e51ad39-2851-40ad-920f-b7cacaf8f206</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/17 - Name with Symbolic Added</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/17 - name dengan simbolik</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
    <testCaseLink>
-      <guid>f5bb9ed1-246e-4759-8d65-75966ca4c422</guid>
+      <guid>cb6bedcd-db47-4a17-8fa9-543cc87b2c1b</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/18 - Name without Space</testCaseId>
+      <testCaseId>Test Cases/CW/Verify/AHU/SK Company Shareholder (Company Shareholder Verification)/18 - name tanpa spasi</testCaseId>
       <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
    </testCaseLink>
 </TestSuiteEntity>

@@ -18,8 +18,6 @@ import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 import static org.junit.Assert.assertEquals
 
-def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/sk_company_modal')
-
 'Mapping Excel File'
 nameTestData = 'Verify/SK Company Modal'
 
@@ -40,15 +38,11 @@ for (int excelRow : (1..getLastRow)) {
 	
 	'Import Sheet verify phone total'
 	GlobalVariable.captureCount = 0
-
 	GlobalVariable.noRow = (GlobalVariable.noRow + 1)
-
 	GlobalVariable.a = 0
-
 	GlobalVariable.excelRow = excelRow
 
 	company_name = data.getValue('company_name', excelRow)
-
 	sk_ahu = data.getValue('sk_ahu', excelRow)
 }
 
@@ -69,44 +63,33 @@ if (WebUI.verifyElementPresent(findTestObject('Web/CWS/Page_Verify Data - ASLI R
 def inputform() {
 	'input form appear'
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/SK Company/input_company'), 1)
-	
 	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/SK Company/input_decreeno'), 1)
-	
-	//WebUI.delay(1)
-	
+
 	WebUI.setText(findTestObject('Web/CWS/AHU/SK Company/input_company'), company_name)
-	
 	WebUI.setText(findTestObject('Web/CWS/AHU/SK Company/input_decreeno'), sk_ahu)
 
 	'button submit appear'
 	WebUI.verifyElementClickable(findTestObject('Web/CWS/AHU/SK Company Modal/button_Submit'))
-	
 	WebUI.scrollToElement(findTestObject('Web/CWS/AHU/SK Company Modal/button_Submit'), 1)
+	
+	def checkBalance1 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/sk_company_modal')
 
 	'click button submit'
 	WebUI.click(findTestObject('Web/CWS/AHU/SK Company Modal/button_Submit'))
+	
+	def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/sk_company_modal')
 
 	'wait result appear'
 	WebUI.waitForElementPresent(findTestObject('Web/CWS/AHU/Result/result Company Capital Verification'), 1)
 	
 	'confirm result'
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/Result/icon centang'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/Result/icon_company_name'), 1)
+	WebUI.verifyMatch(WebUI.getAttribute(findTestObject('Web/CWS/AHU/Result/icon_company_name'), 'class'), 'mdi mdi-check match', false)
 	
-	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/Result/span_BIG'), 1)
+	WebUI.verifyElementPresent(findTestObject('Web/CWS/AHU/Result/span_decree_no'), 1)
+	WebUI.verifyMatch(WebUI.getText(findTestObject('Web/CWS/AHU/Result/span_decree_no')), 'BIG', false)
 	
-	Integer rtn = CustomKeywords."dialog.DialogKeyword.showConfirmationDialog"("Apakah case ini PASS?", "Konfirmasi")
-	
-	if (rtn == 0) {
-		assert true : "pass"
-	} else {
-		WebUI.closeBrowser()
-		assert false : "fail"
-	}
-	
+	println checkBalance1
+	println checkBalance2
+	assertEquals(checkBalance1 - 1, checkBalance2)
 }
-
-def checkBalance2 = CustomKeywords.'abstraction.customKeyword.getRemainingAccess'('/sk_company_modal')
-
-println checkBalance1
-println checkBalance2
-assertEquals(checkBalance1 - 1, checkBalance2)

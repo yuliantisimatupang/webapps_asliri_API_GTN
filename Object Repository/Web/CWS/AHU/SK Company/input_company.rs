@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//input[@id='company']</value>
+         <value>//input[@id='company_name']</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -22,7 +22,7 @@
       <name>tag</name>
       <type>Main</type>
       <value>input</value>
-      <webElementGuid>9b7c1bed-7e63-4767-9a4d-ce0628aecdda</webElementGuid>
+      <webElementGuid>621fcb1f-902a-4be7-8d90-ad1b6ae82ecb</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -30,7 +30,7 @@
       <name>class</name>
       <type>Main</type>
       <value>validate</value>
-      <webElementGuid>1f5aef37-8762-4c6c-8d50-65391f8ebfb6</webElementGuid>
+      <webElementGuid>4b816fdf-ade7-41c1-9978-2bd428e9311a</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -38,7 +38,7 @@
       <name>id</name>
       <type>Main</type>
       <value>company</value>
-      <webElementGuid>75a5db14-743d-48ed-865d-f02841c85fed</webElementGuid>
+      <webElementGuid>45c5191b-8801-4592-ad6e-6ea7d9849ca2</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -46,7 +46,7 @@
       <name>placeholder</name>
       <type>Main</type>
       <value>Company</value>
-      <webElementGuid>5389997f-0297-444a-93d1-85a01580211a</webElementGuid>
+      <webElementGuid>e68aedfd-17af-4e38-826e-f56ebc4a0358</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -54,7 +54,7 @@
       <name>name</name>
       <type>Main</type>
       <value>company</value>
-      <webElementGuid>cc639ea0-001e-4437-bed9-5528a7ad7281</webElementGuid>
+      <webElementGuid>3449d93f-c0cf-48b0-9122-1c009efd4efc</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -62,7 +62,7 @@
       <name>type</name>
       <type>Main</type>
       <value>text</value>
-      <webElementGuid>6625ab23-87f8-44e2-81a9-72f2c7a4cf79</webElementGuid>
+      <webElementGuid>5cf9ba16-ed55-4c40-907d-f8e192a5d44c</webElementGuid>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
@@ -70,15 +70,15 @@
       <name>xpath</name>
       <type>Main</type>
       <value>id(&quot;company&quot;)</value>
-      <webElementGuid>2c1cfddb-e8b9-4ed2-bf65-79ef0dfd782e</webElementGuid>
+      <webElementGuid>a855272c-9ad5-48df-812b-04188bcdacc0</webElementGuid>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//input[@id='company']</value>
-      <webElementGuid>d8c2a681-e28b-4b71-8995-f992d1b73e1e</webElementGuid>
+      <value>//input[@id='company_name']</value>
+      <webElementGuid>9c4f21dc-fddc-4b70-a858-5f9c667e9776</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -86,14 +86,14 @@
       <name>xpath:position</name>
       <type>Main</type>
       <value>//div[2]/div/input</value>
-      <webElementGuid>7b7b4c16-50f9-459a-b934-0df6a7ac1423</webElementGuid>
+      <webElementGuid>266de8a5-cf0b-419f-bab8-42ec1ac42e99</webElementGuid>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:customAttributes</name>
       <type>Main</type>
-      <value>//input[@id = 'company' and @placeholder = 'Company' and @name = 'company' and @type = 'text']</value>
-      <webElementGuid>fd32f86a-a8fe-4448-afef-f2a3dfd6fa56</webElementGuid>
+      <value>//input[@id = 'company_name' and @placeholder = 'Company Name' and @name = 'company_name' and @type = 'text']</value>
+      <webElementGuid>b821bd3a-e0b1-4bba-8a90-48ccab34d000</webElementGuid>
    </webElementXpaths>
 </WebElementEntity>
