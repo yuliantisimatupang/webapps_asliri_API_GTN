@@ -1,5 +1,5 @@
 {
-  "keywordFileContentHash": "115767693CDB8AED3DD848D3673E4749",
+  "keywordFileContentHash": "5EA54B22192EE0202AFD6C6C72F852D3",
   "keywordClasses": [
     {
       "name": "uploadfile.uploadphoto",
@@ -38,6 +38,38 @@
         },
         {
           "name": "uploadFile",
+          "parameters": [
+            {
+              "name": "to",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "com.kms.katalon.core.testobject.TestObject",
+                "unresolvedClassName": "TestObject",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            },
+            {
+              "name": "filePath",
+              "initialExpression": "",
+              "type": {
+                "fullClassName": "java.lang.String",
+                "unresolvedClassName": "String",
+                "isArray": false,
+                "isGnericsPlaceHolder": false,
+                "hasImmutableClassName": false,
+                "genericsTypes": [],
+                "errorOnParsing": false
+              }
+            }
+          ],
+          "javadoc": ""
+        },
+        {
+          "name": "uploadFileJS",
           "parameters": [
             {
               "name": "to",

@@ -22,7 +22,7 @@ try {
     WebUI.openBrowser('')
 
     'navigate to url'
-    WebUI.navigateToUrl(GlobalVariable.url_cw)
+    WebUI.navigateToUrl(GlobalVariable.base_url)
 
     WebUI.maximizeWindow(FailureHandling.STOP_ON_FAILURE)
 

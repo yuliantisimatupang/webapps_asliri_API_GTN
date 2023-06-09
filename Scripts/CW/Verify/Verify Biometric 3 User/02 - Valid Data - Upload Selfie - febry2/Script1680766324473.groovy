@@ -52,7 +52,7 @@ for (int excelRow : (1..getLastRow)) {
 	files_photo = data.getValue('files_photo', excelRow)
 }
 
-WebUI.openBrowser(GlobalVariable.url_cw)
+WebUI.openBrowser(GlobalVariable.base_url)
 //WebUI.maximizeWindow()
 
 CustomKeywords.'abstraction.loginCW.login'('febry2@mail.com', 'M@sukg4n')

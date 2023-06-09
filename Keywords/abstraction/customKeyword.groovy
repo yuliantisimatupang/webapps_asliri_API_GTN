@@ -204,7 +204,7 @@ class customKeyword {
 	@Keyword
 	def getRemainingAccess(String text) {
 		def url = GlobalVariable.url
-		RequestObject verifyBasic = findTestObject('API/Basic/check_balance')
+		RequestObject verifyBasic = findTestObject('OR_WebApps/or_basic/check_balance')
 		verifyBasic.setRestUrl("$url/remaining_access")
 		ArrayList<TestObjectProperty> HTTPHeader = new ArrayList<TestObjectProperty>()
 		HTTPHeader.add(new TestObjectProperty('token', ConditionType.EQUALS, GlobalVariable.token))

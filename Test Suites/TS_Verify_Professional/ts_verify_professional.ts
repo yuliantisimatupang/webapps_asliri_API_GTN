@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestSuiteEntity>
+   <description></description>
+   <name>ts_verify_professional</name>
+   <tag></tag>
+   <isRerun>false</isRerun>
+   <mailRecipient></mailRecipient>
+   <numberOfRerun>0</numberOfRerun>
+   <pageLoadTimeout>30</pageLoadTimeout>
+   <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
+   <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
+   <rerunImmediately>false</rerunImmediately>
+   <testSuiteGuid>fe958fae-ecec-468b-a98d-546acac56bd6</testSuiteGuid>
+   <testCaseLink>
+      <guid>7c0171cd-cfef-49fa-bff1-4b82a1d4608b</guid>
+      <isReuseDriver>false</isReuseDriver>
+      <isRun>true</isRun>
+      <iterationNameVariable>
+         <defaultValue>''</defaultValue>
+         <description></description>
+         <id>d39e41df-5d45-4126-aca4-54b5a2e85c1e</id>
+         <masked>false</masked>
+         <name>Description</name>
+      </iterationNameVariable>
+      <testCaseId>Test Cases/Web Apps/Verify Professional CW/tc_verifyprofessional</testCaseId>
+      <testDataLink>
+         <combinationType>ONE</combinationType>
+         <id>6e70cfd5-1cd6-4921-9419-e434ac433958</id>
+         <iterationEntity>
+            <iterationType>ALL</iterationType>
+            <value></value>
+         </iterationEntity>
+         <testDataId>Data Files/DF_Verify_Professional</testDataId>
+      </testDataLink>
+      <usingDataBindingAtTestSuiteLevel>true</usingDataBindingAtTestSuiteLevel>
+      <variableLink>
+         <testDataLinkId>6e70cfd5-1cd6-4921-9419-e434ac433958</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Login_Access</value>
+         <variableId>992facaa-1aec-4682-863d-dd593e2dfdb8</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6e70cfd5-1cd6-4921-9419-e434ac433958</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Input</value>
+         <variableId>3b3399fa-6b68-42d7-bb31-b4d068f12ab9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6e70cfd5-1cd6-4921-9419-e434ac433958</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Expect</value>
+         <variableId>a6d932e2-8474-41ad-8249-3eacf9a596f9</variableId>
+      </variableLink>
+      <variableLink>
+         <testDataLinkId>6e70cfd5-1cd6-4921-9419-e434ac433958</testDataLinkId>
+         <type>DATA_COLUMN</type>
+         <value>Description</value>
+         <variableId>d39e41df-5d45-4126-aca4-54b5a2e85c1e</variableId>
+      </variableLink>
+   </testCaseLink>
+</TestSuiteEntity>

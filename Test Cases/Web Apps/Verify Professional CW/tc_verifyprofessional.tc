@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TestCaseEntity>
+   <description></description>
+   <name>tc_verifyprofessional</name>
+   <tag></tag>
+   <comment></comment>
+   <testCaseGuid>ae961a4d-c7f0-4c6a-ad9c-137da8885e7c</testCaseGuid>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>992facaa-1aec-4682-863d-dd593e2dfdb8</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>3b3399fa-6b68-42d7-bb31-b4d068f12ab9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>a6d932e2-8474-41ad-8249-3eacf9a596f9</variableId>
+   </variableLinks>
+   <variableLinks>
+      <testDataLinkId></testDataLinkId>
+      <type>DEFAULT</type>
+      <value></value>
+      <variableId>d39e41df-5d45-4126-aca4-54b5a2e85c1e</variableId>
+   </variableLinks>
+   <variable>
+      <defaultValue>'{\r\n    &quot;email&quot;: &quot;yulianti@mail.com&quot;,\r\n    &quot;password&quot;: &quot;yulianti&quot;,\r\n}'</defaultValue>
+      <description></description>
+      <id>992facaa-1aec-4682-863d-dd593e2dfdb8</id>
+      <masked>false</masked>
+      <name>Login_Access</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;name&quot;: &quot;JELITA SEPTRIASA&quot;,\r\n    &quot;birthplace&quot;: &quot;jakarta&quot;,\r\n    &quot;birthdate&quot;: &quot;01-09-1989&quot;,\r\n    &quot;other&quot;: &quot;3175044109890002&quot;,\r\n    &quot;files_photo&quot;: &quot;jeli.jpg&quot;,\r\n    &quot;other_file&quot;: &quot;ektp.jpg&quot;,\r\n}'</defaultValue>
+      <description></description>
+      <id>3b3399fa-6b68-42d7-bb31-b4d068f12ab9</id>
+      <masked>false</masked>
+      <name>Input</name>
+   </variable>
+   <variable>
+      <defaultValue>'{\r\n    &quot;wording&quot;: &quot;Success&quot;,\r\n    &quot;name&quot;: {\r\n         &quot;min&quot;: &quot;75.0&quot;,\r\n         &quot;max&quot;: &quot;100.0&quot;,\r\n    },\r\n    &quot;pdob&quot;: {\r\n         &quot;min&quot;: &quot;75.0&quot;,\r\n         &quot;max&quot;: &quot;100.0&quot;,\r\n    },\r\n    &quot;selfie&quot;: {\r\n         &quot;min&quot;: &quot;75.0&quot;,\r\n         &quot;max&quot;: &quot;100.0&quot;,\r\n    },\r\n}'</defaultValue>
+      <description></description>
+      <id>a6d932e2-8474-41ad-8249-3eacf9a596f9</id>
+      <masked>false</masked>
+      <name>Expect</name>
+   </variable>
+   <variable>
+      <defaultValue>''</defaultValue>
+      <description></description>
+      <id>d39e41df-5d45-4126-aca4-54b5a2e85c1e</id>
+      <masked>false</masked>
+      <name>Description</name>
+   </variable>
+</TestCaseEntity>

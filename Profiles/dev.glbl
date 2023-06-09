@@ -64,4 +64,9 @@
       <initValue>''</initValue>
       <name>status</name>
    </GlobalVariableEntity>
+   <GlobalVariableEntity>
+      <description></description>
+      <initValue>'http://172.17.83.47/internal'</initValue>
+      <name>url</name>
+   </GlobalVariableEntity>
 </GlobalVariableEntities>
